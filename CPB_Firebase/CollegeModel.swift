@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct College: Hashable {
+    var name:String
+    var location:String
+    var students:String
+    var url:String
+}
+
